@@ -1,7 +1,7 @@
+from enum import Enum
 from fastapi import FastAPI
 from app.routers import pathparameter
 from app.routers import pathparameter_with_enumclass
-from enum import Enum
 
 
 
