@@ -1,4 +1,4 @@
-<!-- keep the below folder structure while starting a project in the FastAPI -->
+keep the below folder structure while starting a project in the FastAPI 
 
 my_fastapi_project(Here :- FASTAPI)/
 ├── app/
