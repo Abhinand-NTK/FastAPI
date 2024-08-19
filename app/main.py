@@ -1,10 +1,15 @@
 from fastapi import FastAPI
-from app.routers.pathparameter import pathparameter
+from app.routers import pathparameter
+from app.routers import pathparameter_with_enumclass
+from enum import Enum
+
+
+
 
 app = FastAPI()
 
-# Include routers
 app.include_router(pathparameter.router)
+app.include_router(pathparameter_with_enumclass.router)
 
 @app.get("/")
 async def read_root():
