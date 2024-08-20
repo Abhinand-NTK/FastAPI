@@ -18,4 +18,4 @@ async def get_user_access(enum_name:EnumClassName):
         return {"role": enum_name, "message": "User have User privillages"}
     
     if enum_name is EnumClassName.superadmin:
-        return {"role": enum_name, "message": "User have Superadmin privillages"}
+        return {"role": enum_name, "message": "User have Superadmin privillages"}     
